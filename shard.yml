@@ -1,0 +1,19 @@
+name: kemal-html2pdf
+version: 0.1.0
+
+authors:
+  - krishna <krishna404@yandex.com>
+
+targets:
+  kemal_html2pdf:
+    main: src/kemal_html2pdf.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  wkhtmltopdf-crystal:
+    github: blocknotes/wkhtmltopdf-crystal
+
+crystal: 1.0.0
+
+license: GPL-3.0
